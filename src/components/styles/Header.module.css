@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+header {
+  background: #cc0000;
+  font-family: "Press Start 2P";
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+@media (width < 651px) {
+  header {
+    flex-direction: column;
+  }
+  .scores {
+    display: flex;
+  }
+}
